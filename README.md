@@ -30,6 +30,7 @@
 
 # nginx 们请注意
 
+```
 location ~ \.php$ {
 		include snippets/fastcgi-php.conf;
 	
@@ -39,6 +40,8 @@ location ~ \.php$ {
 		# With php-cgi (or other tcp sockets):
 		# fastcgi_pass 127.0.0.1:9000;
 }
+```
+
 默认配置的 .php后面有个钱币符号，一定要删除那个钱币符号，只要删除钱币符号sepbin就可以用PHPINFO的方式成功路由了。
 因为sepbin并没有使用PHP_INFO变量，因此不必让您的nginx支持PHP_INFO；
   

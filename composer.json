@@ -1,0 +1,16 @@
+{
+	"name":			"sepbin/project",
+	"description":	"a sepbin framework sample project",
+	"keywords": 	["sepbin", "framework", "sepbin3"],
+	"homepage": 	"http://sepbin.artsilk.cn",
+	"time": 		"2018-2-20",
+	"license":		"MIT",
+	"require" : {
+		"sepbin/framework" : "dev-master"
+	},
+	"authors" : [{
+			"name" : "joson",
+			"email" : "hx@artsilk.cn"
+		}
+	]
+}

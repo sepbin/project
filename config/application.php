@@ -30,7 +30,7 @@ return [
         //时区
         'timezone' => 'PRC',                
         //默认语言
-        'language' => 'en_US',              
+        'language' => 'zh-CN',              
         //应用编码
         'charset' => 'utf8',                
         //默认转换数据格式

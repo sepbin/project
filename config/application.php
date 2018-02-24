@@ -148,6 +148,8 @@ return [
             
             //读写分离
             'write_driver' => false,
+            
+            //表名前缀
             'prefix' => 'sep_',
             
             //如果驱动为mysql,则Mysql的配置

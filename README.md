@@ -21,8 +21,9 @@
 ##2,安装sepbin框架
 
 打开控制台，进入到您的网站根目录
-运行composer init
-运行composer install
+
+cd /var/www/您的目录
+composer install
 
 
 ##3,指定根目录为 public
